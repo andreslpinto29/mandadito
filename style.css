@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #171717;
+  font-family: "Fira Sans", "Poppins", sans-serif;
+  color: #ececec;
+  font-style: normal;
+  align-content: center;
+  position: inherit;
+}
+
+#Academic li a {
+  font-size: small;
+}
+#Worklist li a {
+  font-size: small;
+}
+
+#icon {
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+}
+#iconContainer h4 {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.social a {
+  font-size: 200%;
+  padding: 30px;
+  color: #467ee6;
+}
+.social a:hover {
+  font-size: 200%;
+  padding: 30px;
+  color: #ffffff;
+}
+
+/*----------------*/
+a {
+  color: #467ee6;
+  font-weight: bold;
+}
+a:hover {
+  font-weight: lighter;
+}
+hr.hard {
+  border-top: 3px solid #d7d7da;
+  width: 70%;
+}
+
+hr.light {
+  border-top: 1px solid #5b5b7c;
+  width: 90%;
+}
+.btn-primary {
+  background-color: #6292ec;
+  border: 1px solid #467ee6;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.btn-primary:hover {
+  box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),
+    0 17px 50px 0 rgba(233, 233, 233, 0.19);
+}
+/*Titulos*/
+.H1Section {
+  text-align: center;
+  font-size: 250%;
+  font-weight: bolder;
+}
+.ParrafoNormal {
+  font-size: 125%;
+  text-align: justify;
+}
+.SubTitulo {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
+/*cards*/
+.Card li {
+  font-size: smaller;
+  text-align: left;
+}
+.Card {
+  height: fit-content;
+  width: 90%;
+  border: 3px solid #6d6d6d;
+  border-radius: 5px;
+}
+.card-title {
+  font-size: medium;
+  font-weight: bold;
+}
+.card-img-top {
+  width: fit-content;
+  height: 80%;
+  width: fit-content;
+}
+/*Carousel*/
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  align-content: stretch;
+  margin: auto;
+}
+.carousel-inner > .item > img {
+  margin: auto;
+  width: 100%;
+}
+/*navbar*/
+.navbar {
+  padding: 1px;
+  background-color: #313131;
+  border-top: solid 0.5px #ececec;
+  border-bottom: solid 0.5px #ececec;
+}
+.navbar-nav li {
+  padding-top: 5px;
+  padding-bottom: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.navbar-nav li a {
+  color: #ececec !important;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 100% !important;
+}
+
+.navbar li a:hover {
+  font-weight: bolder;
+  background-color: #acacac;
+}
+
+/*banner*/
+#Banner {
+  height: 100%;
+  width: 100%;
+}
+
+#Banner .carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+}
+
+#Banner .carousel-caption h3 {
+  font-size: 200%;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+#Banner .carousel-caption {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+/*Jumbotron*/
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 8px;
+  background-color: #313131;
+  border-bottom: solid 0.5px #b6b6b6;
+}
+.jumbotron p {
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+}
+/*Welcome*/
+.welcome {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+#AandW li a {
+  color: #6292ec;
+  text-align: left;
+}
+#AandW li {
+  color: #467ee6;
+  text-align: left;
+}
+footer {
+  background-color: #313131;
+  padding-top: 10px;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  #Banner .carousel-caption h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+  }
+  #Banner .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+  }
+  .ParrafoNormal {
+    font-size: 110%;
+    text-align: justify;
+  }
+  .card-title {
+    font-size: small;
+    font-weight: bolder;
+  }
+  .H1Section {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+  }
+  .SubTitulo {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 768px) {
+  #Banner .carousel-caption h1 {
+    font-size: 300%;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .jumbotron {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #313131;
+    border-bottom: solid 0.6px #b6b6b6;
+  }
+  .jumbotron p {
+    text-align: center;
+    font-size: 90%;
+    font-weight: bolder;
+  }
+  .ParrafoNormal {
+    font-size: 100%;
+    text-align: justify;
+  }
+  .card-title {
+    font-size: small;
+    font-weight: bolder;
+  }
+  .H1Section {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+  }
+  .SubTitulo {
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+  }
+}
+
+/**xs*/
+@media (max-width: 576px) {
+  #Banner .carousel-caption h1 {
+    font-size: 130%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #Banner .carousel-caption h3 {
+    font-size: 85%;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+  }
+  .jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #313131;
+    border-bottom: solid 0.4px #b6b6b6;
+  }
+  .jumbotron p {
+    text-align: center;
+    font-size: 70%;
+    font-weight: bolder;
+    margin: auto;
+  }
+  .Warper {
+    height: 10%;
+    width: 60%;
+    align-content: center;
+    text-align: center;
+  }
+  .ParrafoNormal {
+    font-size: 90%;
+    text-align: justify;
+  }
+  .card-title {
+    font-size: smaller;
+    font-weight: bolder;
+  }
+  .H1Section {
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+  }
+  .SubTitulo {
+    text-align: center;
+    font-size: 100%;
+    font-weight: bolder;
+  }
+  body {
+    width: 130%;
+  }
+  #iconContainer h4 {
+    font-size: 90%;
+    font-weight: bold;
+  }
+  #icon {
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+  }
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
