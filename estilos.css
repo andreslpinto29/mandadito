@@ -1,0 +1,374 @@
+body{
+    width: 100%;
+  }
+      #logo{
+        width: 60px;
+        margin-top: -10px;
+      } 
+     
+      .botones{
+        margin:0px;
+        width: 100%;
+      }
+  
+      .video{
+        margin-top: 7%;
+      }
+  
+   
+    .pie{
+      background-color: black;
+      color: white;
+      width: 100%;
+      padding: 5%;
+   padding-left: 30%;
+      font-size:0.9em;
+    }
+  .pie2{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 5%;
+     padding-left: 30%;
+  }
+    
+      .pie3{
+      background-color: black;
+      text-align: center;
+    
+      color: grey;
+      width: 100%;
+    }
+  
+   
+   .copyright{
+    text-align: center;
+    background-color: black;
+    color: grey;
+    padding-bottom: 5%;
+    margin-top:5%;
+   }
+  
+    .copyright2{
+    text-align: center;
+    background-color: black;
+    color: grey;
+    margin-top: 5%;
+    margin-left: 0px;
+   }
+  
+     .copyright3{
+    text-align: center;
+    background-color: black;
+    color: grey;
+    margin-top: 5%;
+    margin-left: 0px;
+    font-size: 0.9em;
+    padding-bottom: 5%;
+   }
+  
+  
+   .logopie{
+    width: 15%;
+    padding: 2%;
+   }
+  
+   .logopie2{
+    width: 10%;
+    padding: 2%;
+    text-align: left;
+   }
+  
+  
+    .titulored{
+      font-size: 1.2em;
+      font-style: bold;
+      margin-left: -30px;
+    }
+  
+      .titulored2{
+      font-size: 1.1em;
+      font-style: bold;
+      margin-left: -30px;
+    }
+  
+      .titulored3{
+        color:white;
+      font-size: 1.1em;
+      font-style: bold;
+     padding-left: -20px;
+      padding-top: 5%;
+    }
+  .mapa_imagenes_xs{
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  .diseno_web_container{
+    margin: 0px;
+    width: 100%;
+  }
+  
+  .encabezado{
+    width: 100%;
+   margin-top: 8%;
+   background: #ff0090;
+   height: 60px;
+  }
+  
+  .encabezado_cyan{
+    width: 100%;
+   margin-top: 8%;
+   background: #04c4fb;
+   height: 60px;
+  }
+  .encabezado_amarillo{
+    width: 100%;
+   margin-top: 8%;
+   background: #ffff00;
+   height: 60px;
+  }
+  .encabezado_gris{
+    width: 100%;
+   margin-top: 8%;
+   margin-bottom: 5%;
+   background: #999999;
+   height: 60px;
+  }
+  
+  
+  
+  .img_diseno{
+  margin-top: -44px;
+  }
+  
+  .encabezado_md{
+    width: 100%;
+   margin-top: 11%;
+   margin-bottom: 3%;
+   background: #ff0090;
+   height: 60px;
+  }
+  
+  .encabezado_md_cyan{
+    width: 100%;
+   margin-top: 11%;
+   margin-bottom: 3%;
+   background:  #04c4fb;
+   height: 60px;
+  }
+  
+  .encabezado_md_amarillo{
+    width: 100%;
+   margin-top: 11%;
+   margin-bottom: 3%;
+   background:  #ffff00;
+   height: 60px;
+  }
+  .encabezado_md_gris{
+    width: 100%;
+   margin-top: 11%;
+   margin-bottom: 3%;
+   background:  #999999;
+   height: 60px;
+  }
+  
+  
+  
+  .img_diseno_md{
+  margin-top: -44px;
+  }
+  
+  .encabezado_sm{
+    width: 100%;
+   margin-top: 15%;
+   margin-bottom: 6%;
+   background: #ff0090;
+   height: 60px;
+  }
+  
+  .encabezado_sm_cyan{
+    width: 100%;
+   margin-top: 15%;
+   margin-bottom: 6%;
+   background:  #04c4fb;
+   height: 60px;
+  }
+  .encabezado_sm_amarillo{
+    width: 100%;
+   margin-top: 15%;
+   margin-bottom: 6%;
+   background:  #ffff00;
+   height: 60px;
+  }
+  .encabezado_sm_gris{
+    width: 100%;
+   margin-top: 15%;
+   margin-bottom: 6%;
+   background:  #999999;
+   height: 60px;
+  }
+  
+  .img_diseno_sm{
+  margin-top: -44px;
+  }
+  
+  .encabezado_xs{
+    width: 100%;
+   margin-top: 30%;
+   margin-bottom: 10%;
+   background: #ff0090;
+   height: 40px;
+  }
+  .encabezado_xs_cyan{
+    width: 100%;
+   margin-top: 30%;
+   margin-bottom: 10%;
+   background:  #04c4fb;
+   height: 40px;
+  }
+  
+  .encabezado_xs_amarillo{
+    width: 100%;
+   margin-top: 30%;
+   margin-bottom: 10%;
+   background: #ffff00;
+   height: 40px;
+  }
+  
+  .encabezado_xs_gris{
+    width: 100%;
+   margin-top: 30%;
+   margin-bottom: 10%;
+   background: #999999;
+   height: 40px;
+  }
+  
+  
+  
+  .img_diseno_xs{
+  margin-top: -33px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .ejemplo{
+    margin-bottom: 20%;
+   
+  
+  
+  }
+  
+  
+  
+  .seccion{
+    margin-bottom: 5%;
+    margin-top:5%;
+  }
+  
+  .web_corporativa{
+    width: 50%;
+  }
+  
+  .imagen_diseno_xs{
+    width: 100%;
+  
+  }
+  .thumbnail{
+    
+    border:none !important;
+   
+  }
+  
+  .magenta{
+    background-color: black;
+    color: #ff0090;
+  }
+  .cyan{
+    background-color: black;
+    color: #04c4fb;
+  }
+  
+  .amarillo{
+    background-color: black;
+    color:#ffff00;
+  }
+  
+  
+  .slaider_contacto{
+    margin-bottom: 5%;
+    width: 100%;
+  }
+  
+  
+  .instalaciones{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 50px;
+     text-align: center;
+  }
+  
+  .form{
+    background-color: #96caf6;
+  }
+  
+  
+  .dir_mapa{
+    background-color: #337ab7;
+    color:white;
+    text-align: center;
+    padding: 3%;
+    font-size: 1.5em;
+    margin-bottom: 10%;
+   
+   
+  }
+  
+  
+  @media screen and (min-width:1200px){ 
+    .mapa_imagenes_lg{
+      text-align: center;
+  margin-left: -200px;
+  
+    }
+                            
+    
+  }  
+  
+  
+  
+  
+  @media screen and (min-width:768px){  
+    .mapa_imagenes_sm{
+     
+  
+    }
+                            
+    
+  }  
+  @media screen and (max-width:768px){  
+    .mapa_imagenes_xs{
+   margin: 0px;
+    }
+                            
+    
+  }  
